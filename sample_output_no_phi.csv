@@ -1,0 +1,21 @@
+local_test_code,test_name_demo,specimen,unit,candidate_loinc_hint,status,reason_code,priority,next_action
+DEMO-001,Glucose,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-002,Glicemia,Siero,mg/dL,candidate_hint_available,REVIEW,LOCAL_LANGUAGE_VARIANT,MEDIUM,confirm_equivalence
+DEMO-003,Glucose fasting,Plasma,mg/dL,candidate_hint_available,REVIEW,SPECIMEN_OR_TIMING_CONTEXT_NEEDED,MEDIUM,review_context
+DEMO-004,Creatinine,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-005,Creatinina,Siero,mg/dL,candidate_hint_available,REVIEW,LOCAL_LANGUAGE_VARIANT,MEDIUM,confirm_equivalence
+DEMO-006,Total cholesterol,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-007,HDL cholesterol,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-008,LDL cholesterol,Serum,mg/dL,candidate_hint_available,REVIEW,CALCULATED_RESULT_CONTEXT,MEDIUM,review_method
+DEMO-009,Triglycerides,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-010,Sodium,Serum,mmol/L,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-011,Potassium,Serum,mmol/L,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-012,Calcium total,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-013,Calcium urine,Urine,mg/dL,candidate_hint_available,REVIEW,SPECIMEN_CONTEXT_NEEDED,MEDIUM,review_specimen
+DEMO-014,Protein total,Serum,g/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-015,Protein urine,Urine,mg/dL,candidate_hint_available,HOLD,INSUFFICIENT_CONTEXT,HIGH,do_not_force
+DEMO-016,PCR,Serum,mg/L,candidate_hint_available,REVIEW,NAME_AMBIGUOUS,MEDIUM,clarify_test_name
+DEMO-017,CRP,Serum,mg/L,candidate_hint_available,REVIEW,DUPLICATE_VARIANT,MEDIUM,merge_or_confirm_variant
+DEMO-018,Clearance creatinine,24h urine,mL/min,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-019,Generic test,,,no_candidate_hint,HOLD,INSUFFICIENT_CONTEXT,HIGH,do_not_force
+DEMO-020,Panel chemistry,,,no_candidate_hint,HOLD,PANEL_NOT_ATOMIC_TEST,HIGH,split_panel_or_review
