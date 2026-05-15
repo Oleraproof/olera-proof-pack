@@ -1,0 +1,21 @@
+local_test_code,test_name,specimen,unit,method,discipline
+DEMO-001,Glucose,Serum,mg/dL,,Clinical Chemistry
+DEMO-002,Glicemia,Siero,mg/dL,,Clinical Chemistry
+DEMO-003,Glucose fasting,Plasma,mg/dL,,Clinical Chemistry
+DEMO-004,Creatinine,Serum,mg/dL,,Clinical Chemistry
+DEMO-005,Creatinina,Siero,mg/dL,,Clinical Chemistry
+DEMO-006,Total cholesterol,Serum,mg/dL,,Clinical Chemistry
+DEMO-007,HDL cholesterol,Serum,mg/dL,,Clinical Chemistry
+DEMO-008,LDL cholesterol,Serum,mg/dL,calculated,Clinical Chemistry
+DEMO-009,Triglycerides,Serum,mg/dL,,Clinical Chemistry
+DEMO-010,Sodium,Serum,mmol/L,ISE,Clinical Chemistry
+DEMO-011,Potassium,Serum,mmol/L,ISE,Clinical Chemistry
+DEMO-012,Calcium total,Serum,mg/dL,,Clinical Chemistry
+DEMO-013,Calcium urine,Urine,mg/dL,,Clinical Chemistry
+DEMO-014,Protein total,Serum,g/dL,,Clinical Chemistry
+DEMO-015,Protein urine,Urine,mg/dL,,Clinical Chemistry
+DEMO-016,PCR,Serum,mg/L,,Clinical Chemistry
+DEMO-017,CRP,Serum,mg/L,,Clinical Chemistry
+DEMO-018,Clearance creatinine,24h urine,mL/min,calculated,Clinical Chemistry
+DEMO-019,Generic test,,,,
+DEMO-020,Panel chemistry,,,,
