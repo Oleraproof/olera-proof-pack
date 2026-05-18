@@ -1,0 +1,27 @@
+{
+  "project": "OLERA Proof Pack",
+  "dataset_type": "synthetic_demo_no_phi",
+  "total_rows": 20,
+  "buckets": {
+    "SAFE": 10,
+    "REVIEW": 7,
+    "HOLD": 3
+  },
+  "kpi": {
+    "safe_rate": 0.5,
+    "review_rate": 0.35,
+    "hold_rate": 0.15
+  },
+  "boundaries": {
+    "patient_data": false,
+    "clinical_validation": false,
+    "final_loinc_mapping": false,
+    "production_system_access": false
+  },
+  "notes": [
+    "Candidate LOINC hints are technical suggestions for review only.",
+    "This demo does not contain patient data.",
+    "This demo does not represent clinical validation.",
+    "This demo does not provide final mappings."
+  ]
+}
