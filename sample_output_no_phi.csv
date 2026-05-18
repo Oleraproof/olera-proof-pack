@@ -1,0 +1,21 @@
+local_test_code,test_name_demo,specimen,unit,candidate_loinc_hint,status,reason_code,priority,next_action
+DEMO-001,Glucose,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-002,Glicemia,Siero,mg/dL,candidate_hint_available,REVIEW,LOCAL_LANGUAGE_VARIANT,MEDIUM,confirm_equivalence
+DEMO-003,Glucose fasting,Plasma,mg/dL,candidate_hint_available,REVIEW,SPECIMEN_OR_TIMING_CONTEXT_NEEDED,MEDIUM,review_context
+DEMO-004,Creatinine,Serum,mg/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-005,Creatinina,Siero,mg/dL,candidate_hint_available,REVIEW,LOCAL_LANGUAGE_VARIANT,MEDIUM,confirm_equivalence
+DEMO-006,Hemoglobin,Blood,g/dL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-007,Hb,Sangue,g/dL,candidate_hint_available,REVIEW,LOCAL_LANGUAGE_VARIANT,MEDIUM,confirm_equivalence
+DEMO-008,TSH,Serum,mIU/L,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-009,Urine culture,Urine,,candidate_hint_available,SAFE,SPECIMEN_CONTEXT_NEEDED,HIGH,technical_review
+DEMO-010,Blood culture,Blood,,candidate_hint_available,SAFE,SPECIMEN_CONTEXT_NEEDED,HIGH,technical_review
+DEMO-011,Vitamin D,Serum,ng/mL,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-012,25 OH Vitamin D,Serum,ng/mL,candidate_hint_available,REVIEW,NAME_AMBIGUOUS,MEDIUM,review_context
+DEMO-013,Complete blood count,Blood,,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-014,CBC,Blood,,candidate_hint_available,REVIEW,DUPLICATE_VARIANT,MEDIUM,confirm_equivalence
+DEMO-015,Generic test,,,no_candidate,HOLD,INSUFFICIENT_CONTEXT,HIGH,enrich_source
+DEMO-016,Test X12,,,no_candidate,HOLD,INSUFFICIENT_CONTEXT,HIGH,enrich_source
+DEMO-017,CRP,Serum,mg/L,candidate_hint_available,SAFE,STRUCTURED_MATCH,HIGH,technical_review
+DEMO-018,C reactive protein,Serum,mg/L,candidate_hint_available,SAFE,DUPLICATE_VARIANT,HIGH,technical_review
+DEMO-019,Calculated LDL,Serum,mg/dL,candidate_hint_available,REVIEW,CALCULATED_RESULT_CONTEXT,MEDIUM,review_method
+DEMO-020,Lipid panel,Serum,,no_candidate,HOLD,PANEL_NOT_ATOMIC_TEST,HIGH,split_panel
