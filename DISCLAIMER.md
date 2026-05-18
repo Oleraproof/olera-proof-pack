@@ -1,0 +1,23 @@
+# Disclaimer
+
+OLERA is an independent technical project.
+
+OLERA is not affiliated with, endorsed by or certified by Regenstrief Institute, the LOINC Committee or any LIS/LIMS vendor.
+
+LOINC is a registered trademark of Regenstrief Institute.
+
+This repository contains synthetic NO-PHI demo material only.
+
+No patient data is included.
+
+No production system data is included.
+
+No clinical validation is performed.
+
+No final LOINC mapping is provided.
+
+Candidate LOINC hints are technical suggestions for review only.
+
+OLERA does not replace LIS, LIMS, middleware, clinical experts, laboratory professionals or final validation workflows.
+
+The material in this repository is intended only to demonstrate the structure of a catalog readiness audit output.
